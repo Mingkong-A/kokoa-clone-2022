@@ -1,9 +1,11 @@
-body {
-  font-family: "Alkalami", serif;
-}
 .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  padding: 10px 10px;
 }
 .status-bar__column:first-child {
   margin-right: 5px;
@@ -24,4 +26,12 @@ body {
 }
 .status-bar__column .fa-battery-half {
   margin: 0px 5px;
+}
+.setting-status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
 }
